@@ -1,0 +1,238 @@
+/* Reset / Normalize
+  ============================= */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+
+/* Variables
+  ============================= */
+
+  :root {
+    --font-family-base: 'Source Sans Pro';
+  }
+
+  .navbar-menu {
+    position: absolute;
+    width: 255px;
+    height: 15px;
+    left: 946px;
+    top: 37px;
+  }
+
+  .nav {
+    list-style-type: none;
+  }
+
+  .nav a {
+    text-decoration: none;
+  }
+
+  .nav .nav-item-1 a {
+    position: absolute;
+    height: 15px;
+    left: -79%;
+    right: 76.08%;
+    top: calc(50% - 70px/2);
+
+    font-family: var(--font-family-base);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+  }
+
+  .nav [class*='nav-item'] a:hover {
+    color: #FF6565;
+    cursor: pointer;
+  }
+
+  .nav .nav-item-2 a {
+    position: absolute;
+    height: 15px;
+    left: -39%;
+    right: 37.65%;
+    top: calc(50% - 70px/2);
+
+    font-family: var(--font-family-base);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+  }
+
+  .nav .nav-item-3 a {
+    position: absolute;
+    height: 15px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 70px/2);
+
+    font-family: var(--font-family-base);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+  }
+
+  .header {
+    position: absolute;
+    width: 1000.39px;
+    height: 32px;
+    left: 200.61px;
+    top: 27.76px;
+  }
+
+  .section-hero {
+    width: 1400px;
+    height: 800px;
+    background-image: url(image/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .header .img-logo {
+    position: absolute;
+    width: 161px;
+    height: 32px;
+  }
+
+  .txt-hero {
+    position: absolute;
+    width: 637px;
+    height: 313px;
+    left: 382px;
+    top: 372px;
+  }
+
+  .txt-hero .title {
+    position: absolute;
+    height: 40px;
+    left: 4.55%;
+    right: 4.71%;
+    top: calc(50% - 40px/2 - 170px);
+
+    font-family: var(--font-family-base);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .txt-hero .subtitle {
+    position: absolute;
+    height: 20px;
+    left: 22.14%;
+    right: 22.14%;
+    top: calc(50% - 20px/2 - 123px);
+
+    font-family: var(--font-family-base);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .btn-main {
+    position: absolute;
+    left: 37.21%;
+    right: 37.36%;
+    top: 31.95%;
+    bottom: 53.99%;
+    
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+  }
+
+  .background {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: none;
+
+    background: #FF6565;
+    border-radius: 22px;
+  }
+
+  .txt-btn {
+    position: absolute;
+    height: 18px;
+    left: 18.14%;
+    right: 19.14%;
+    top: calc(50% - 21px/2);
+
+    font-family: var(--font-family-base);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    border: none;
+    background-color: #FF6565;
+  }
+
+  .txt-hero .paragraph {
+    position: absolute;
+    height: 104px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 104px/2 + 88.5px);
+
+    font-family: var(--font-family-base);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  @media screen and (max-width: 480px) {
+    .header {
+      position: absolute;
+      width: 247px;
+      height: 32px;
+      left: 21px;
+      top: 29px;
+    }
+
+    .section-hero {
+      position: absolute;
+      width: 375px;
+      height: 869px;
+      left: 0px;
+      top: 0px;
+      background-image: url(image/headphones_hero_1.jpg);
+    }
+
+    .navbar-menu {
+      position: absolute;
+      width: 20px;
+      height: 14px;
+      left: 21px;
+      top: 38px;
+        
+      background: #FFFFFF;
+    }
+  }
