@@ -168,6 +168,11 @@
     border-radius: 22px;
   }
 
+  .background:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
   .txt-btn {
     position: absolute;
     height: 18px;

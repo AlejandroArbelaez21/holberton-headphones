@@ -168,6 +168,11 @@
     border-radius: 22px;
   }
 
+  .background:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
   .txt-btn {
     position: absolute;
     height: 18px;
@@ -208,31 +213,3 @@
     color: #FFFFFF;
   }
 
-  @media screen and (max-width: 480px) {
-    .header {
-      position: absolute;
-      width: 247px;
-      height: 32px;
-      left: 21px;
-      top: 29px;
-    }
-
-    .section-hero {
-      position: absolute;
-      width: 375px;
-      height: 869px;
-      left: 0px;
-      top: 0px;
-      background-image: url(image/headphones_hero_1.jpg);
-    }
-
-    .navbar-menu {
-      position: absolute;
-      width: 20px;
-      height: 14px;
-      left: 21px;
-      top: 38px;
-        
-      background: #FFFFFF;
-    }
-  }
